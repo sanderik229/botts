@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects Management</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       
+        <form id="object-form" class="form">
+            <div class="form-group">
+                
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Марка машины</span>
+                </div>
+                <input type="text" class="form-control" id="name" aria-label="Large" aria-describedby="inputGroup-sizing-sm" required>
+              </div>
+            <div class="form-group">
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-lg">Описание машины</span>
+                    </div>
+                    <input type="text" class="form-control" id="description" aria-label="Large" aria-describedby="inputGroup-sizing-sm" required>
+                  </div>
+            </div>
+            <button type="submit" class="btn btn-dark">Добавить</button>
+        </form>
+        <div id="objects-container"></div>
+        <script src="main.js"></script>
+    </div>
